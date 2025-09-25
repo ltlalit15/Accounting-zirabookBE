@@ -16,14 +16,20 @@
 
 
 
+
+
+
+
+
+
 import mysql from 'mysql2/promise';
 
 export const pool = mysql.createPool({
-  host: "localhost",       // ✅ Updated Host
-  port: 3306,                           // ✅ Updated Port
+  host: "yamanote.proxy.rlwy.net",       // ✅ Updated Host
+  port: 47455,                           // ✅ Updated Port
   user: "root",                          // ✅ Username
-  password: "", // ✅ Password
-  database: "zirabook",                  // ✅ Database Name
+  password: "hnnHGPrwsrIcRVnPhrFjvJOrBgNsnZNU", // ✅ Password
+  database: "railway",                  // ✅ Database Name
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0,
