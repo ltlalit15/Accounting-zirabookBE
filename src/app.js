@@ -156,7 +156,7 @@ const corsOptions = {
     const allowedOrigins = [
       'http://localhost:5173',  // React development server
       'http://localhost:4200',  // Angular development server
-      'https://yourproductiondomain.com'  // Your production frontend
+      'https://zirak-book.netlify.app'  // Your production frontend
     ];
     
     // Check if the origin is in the allowed list
